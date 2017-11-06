@@ -1,4 +1,39 @@
 /* Nav Bar CSS */
+ul {
+    list-style: none;
+     margin: 0;
+    padding: 0;
+    overflow: hidden;    
+}
+.right {
+    float: right;
+    padding: 20px;
+}
+.left {
+    float: left;
+    padding : 20px;
+    color: white;
+    font-size:20px;
+}
+li a {
+    
+   text-decoration: none;
+   color: white;
+    
+}
+li a:hover {
+    
+    text-decoration:none;
+    color: red;
+    
+}
+#nav {
+    background-color: black;
+}
+#head {
+    text-align: center;
+    margin: 20px;  
+}
 
 
 /* Header CSS */
